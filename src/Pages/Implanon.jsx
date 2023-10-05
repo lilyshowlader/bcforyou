@@ -1,8 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Implanon.modules.css'; 
 
 export default function Implanon() {
+// State to manage user reviews
+const [reviews, setReviews] = useState([]);
+const [newReview, setNewReview] = useState('');
+
+// Function to handle adding a new review
+const addReview = () => {
+  if (newReview.trim() !== '') {
+    setReviews([...reviews, newReview]);
+    setNewReview('');
+    }
+  };
+
+
   return (
     <>
       <div className='centered-heading'>
@@ -45,6 +58,24 @@ export default function Implanon() {
 						</p>
 
         <p className='bc-heading'>REVIEWS</p>
+        <p>leave a review</p>
+
+
+        <ul>
+            {reviews.map((review, index) => (
+              <li key={index}>{review}</li>
+            ))}
+          </ul>
+
+          <textarea
+            placeholder='love the patch!'
+            value={newReview}
+            onChange={(e) => setNewReview(e.target.value)}
+            className='text-area'
+          ></textarea>
+          <button onClick={addReview} className='submit-button'>submit</button>
+
+          
       </div>
       </div>
    

@@ -1,8 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './NuvaRing.modules.css'; 
 
 export default function NuvaRing() {
+  const [reviews, setReviews] = useState([]);
+  const [newReview, setNewReview] = useState('');
+  
+  // Function to handle adding a new review
+  const addReview = () => {
+    if (newReview.trim() !== '') {
+      setReviews([...reviews, newReview]);
+      setNewReview('');
+      }
+    };
+
+
   return (
     <>
       <div className='centered-heading'>
@@ -45,7 +57,25 @@ export default function NuvaRing() {
               <li>Store NuvaRings at room temperature, and away from direct sunlight for up to 4 months (16 weeks). Keep any NuvaRings that you won’t use within 4 months in the refrigerator.</li>
             </ul>
 
-        <p className='bc-heading'>REVIEWS</p>
+
+        <p className='review-heading'>REVIEWS</p>
+        <p>leave a review</p>
+
+        <ul>
+            {reviews.map((review, index) => (
+              <li key={index}>{review}</li>
+            ))}
+          </ul>
+
+          <textarea
+            placeholder='love the patch!'
+            value={newReview}
+            onChange={(e) => setNewReview(e.target.value)}
+            className='text-area'
+          ></textarea>
+          <button onClick={addReview} className='submit-button'>submit</button>
+
+
       </div>
       </div>
    

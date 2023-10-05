@@ -1,8 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './IUD.modules.css'; 
 
 export default function IUD() {
+  const [reviews, setReviews] = useState([]);
+  const [newReview, setNewReview] = useState('');
+  
+  // Function to handle adding a new review
+  const addReview = () => {
+    if (newReview.trim() !== '') {
+      setReviews([...reviews, newReview]);
+      setNewReview('');
+      }
+    };
+
+
   return (
     <>
       <div className='centered-heading'>
@@ -57,7 +69,26 @@ export default function IUD() {
 
           The Mirena, Kyleena, Liletta, and Skyla IUDs use the hormone progestin to prevent pregnancy. Progestin is very similar to the hormone progesterone that our bodies make naturally. Mirena works for up to 8 years. Kyleena works for up to 5 years. Liletta works for up to 8 years. Skyla works for up to 3 years.
         </p>
-        <p className='bc-heading'>REVIEWS</p>
+
+        
+        <p className='review-heading'>REVIEWS</p>
+        <p>leave a review</p>
+
+        <ul>
+            {reviews.map((review, index) => (
+              <li key={index}>{review}</li>
+            ))}
+          </ul>
+
+          <textarea
+            placeholder='love the patch!'
+            value={newReview}
+            onChange={(e) => setNewReview(e.target.value)}
+            className='text-area'
+          ></textarea>
+          <button onClick={addReview} className='submit-button'>submit</button>
+
+          
       </div>
       </div>
    

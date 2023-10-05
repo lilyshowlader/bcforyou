@@ -13,7 +13,12 @@
 .subheading {
   font-weight: bold;
 }
+
 .bc-heading {
+  font-size: 45px !important;
+}
+
+.review-heading {
   font-size: 45px !important;
 }
 
@@ -24,8 +29,27 @@
   background-color: rgb(183, 233, 183);
 }
 
+.submit-button {
+  padding: 10px;
+  border-radius: 50%;
+  border: none;
+  background-color: orange;
+  margin-left: 650px;
+  margin-top: 5px;
+}
+
 .endofpage {
   margin-top: 50px;
+}
+
+
+.text-area {
+  width: 700px;
+  height: 100px
+}
+
+.submit-button:hover img {
+  border: 2px solid rgba(0, 0, 0, .3);
 }
 
 
@@ -50,8 +74,6 @@
     max-width: 700px;
     text-align: left;
   }
-
-  /* Add styles for text-container-two */
 }
 
 
@@ -65,5 +87,16 @@
 
   .text-container {
     width: 350px; 
+  }
+
+  .text-area {
+    width: 350px;
+    height: 100px
+  }
+
+  .submit-button {
+    margin-left: 0; 
+    margin-top: 10px;
+    margin-bottom: 40px; 
   }
 }
