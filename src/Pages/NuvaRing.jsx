@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './IUD.modules.css'; 
+import './NuvaRing.modules.css'; 
 
 export default function NuvaRing() {
   return (

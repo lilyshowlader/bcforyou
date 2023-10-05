@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './IUD.modules.css'; 
+import './Condoms.modules.css'; 
 
 export default function Condoms() {
   return (

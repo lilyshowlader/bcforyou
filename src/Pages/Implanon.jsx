@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './IUD.modules.css'; 
+import './Implanon.modules.css'; 
 
 export default function Implanon() {
   return (
