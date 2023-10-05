@@ -20,15 +20,15 @@ export default function IUD() {
         </div>
 
         <div className='text-container'>
-          <p className='sub-heading'>what is it?</p>
+          <p className='sub-heading'>WHAT IS IT?</p>
           <p className='answer'>
             An IUD is a tiny device that's put into your uterus to prevent pregnancy. It’s long-term, reversible, and one of the most effective birth control methods out there.
           </p>
-          <p className='sub-heading'>what does IUD stand for?</p>
+          <p className='sub-heading'>WHAT DOES IUD STAND FOR?</p>
           <p className='answer'>
             IUD stands for Intrauterine Device (basically: a device inside your uterus). It's a small piece of flexible plastic shaped like a T. Sometimes it’s called an IUC — intrauterine contraception.
           </p>
-          <p className='sub-heading'>what are the types of IUDs?</p>
+          <p className='sub-heading'>WHAT ARE THE TYPES OF IUDS?</p>
           <p className='answer'>
             There are 5 different brands of IUDs that are FDA approved for use in the United States:
             <ul>
@@ -57,6 +57,7 @@ export default function IUD() {
 
           The Mirena, Kyleena, Liletta, and Skyla IUDs use the hormone progestin to prevent pregnancy. Progestin is very similar to the hormone progesterone that our bodies make naturally. Mirena works for up to 8 years. Kyleena works for up to 5 years. Liletta works for up to 8 years. Skyla works for up to 3 years.
         </p>
+        <p className='bc-heading'>REVIEWS</p>
       </div>
       </div>
    
