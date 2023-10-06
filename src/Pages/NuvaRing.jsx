@@ -68,7 +68,7 @@ export default function NuvaRing() {
           </ul>
 
           <textarea
-            placeholder='love the patch!'
+            placeholder='love my NuvaRing!'
             value={newReview}
             onChange={(e) => setNewReview(e.target.value)}
             className='text-area'

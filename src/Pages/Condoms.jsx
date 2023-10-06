@@ -78,7 +78,7 @@ export default function Condoms() {
           </ul>
 
           <textarea
-            placeholder='love the patch!'
+            placeholder='love using condoms!'
             value={newReview}
             onChange={(e) => setNewReview(e.target.value)}
             className='text-area'

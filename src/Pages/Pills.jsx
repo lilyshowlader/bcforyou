@@ -77,7 +77,7 @@ export default function Pills() {
           </ul>
 
           <textarea
-            placeholder='love the patch!'
+            placeholder='love my bc pills!'
             value={newReview}
             onChange={(e) => setNewReview(e.target.value)}
             className='text-area'

@@ -10,7 +10,7 @@
 	font-family: 'Montserrat', sans-serif;
 }
 
-.subheading {
+.sub-heading {
   font-weight: bold;
 }
 
@@ -62,11 +62,13 @@
   }
 
   .text-container {
+    margin-top: 40px;
     flex-grow: 1;
     max-width: 400px;
   }
 
   .text-container-two {
+    margin-top: 20px;
     max-width: 700px;
     text-align: left;
   }

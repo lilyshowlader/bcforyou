@@ -81,7 +81,7 @@ export default function IUD() {
           </ul>
 
           <textarea
-            placeholder='love the patch!'
+            placeholder='love my IUD!'
             value={newReview}
             onChange={(e) => setNewReview(e.target.value)}
             className='text-area'
