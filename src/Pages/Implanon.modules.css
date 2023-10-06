@@ -22,6 +22,7 @@
   border-radius: 50%;
   border: none;
   background-color: rgb(183, 233, 183);
+  color: black;
 }
 
 .submit-button {
@@ -31,6 +32,7 @@
   background-color: orange;
   margin-left: 650px;
   margin-top: 5px;
+  color: black;
 }
 
 .endofpage {
