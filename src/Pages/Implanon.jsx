@@ -52,6 +52,8 @@ const addReview = () => {
               <li>Progestin can also stop eggs from leaving your ovaries (called ovulation), so there’s no egg to fertilize. When eggs aren’t released, you can’t get pregnant.</li>
             </ul>
 
+            <br></br>
+            
 						<p className='sub-heading'>TAKE IT OUT WHEN YOU WANT</p>
 						<p className='answer'>
 						One of the awesome things about the implant is that it lasts for a long time — up to 5 years — but it’s not permanent. If you decide you want to get pregnant or you just don’t want to have your implant anymore, your doctor can take it out. You’re able to get pregnant quickly after the implant is removed. 

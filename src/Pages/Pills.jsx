@@ -53,6 +53,8 @@ export default function Pills() {
               <li>Progestin-only pills (aka POPs or mini pills) Progestin-only pills only have progestin.</li>
             </ul>
 
+            <br></br>
+            
 						<p className='sub-heading'>HOW DO I MAKE THE PILL WORK BEST FOR ME?</p>
 						<p className='answer'>
 						Forgetting pills, losing the pack, not refilling your prescription on time — these are the main reasons why people might get pregnant when they use the pill. It’s good to plan ahead and think about the best way for you to use the pill correctly. Here are some ways to help you remember to take your pills every day:
@@ -87,7 +89,7 @@ export default function Pills() {
 
       </div>
       </div>
-   
+  
       <div className='content-container'>
       <div>
         <Link to="/">

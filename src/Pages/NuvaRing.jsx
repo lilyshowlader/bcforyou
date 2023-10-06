@@ -51,6 +51,8 @@ export default function NuvaRing() {
               <li>Use a birth control reminder app or set an alarm on your phone.</li>
             </ul>
 
+            <br></br>
+            
 						<p className='sub-heading'>TAKING CARE OF YOUR RING PROPERLY</p>
 				    <ul>
               <li>Keep your ring(s) in the same place so you don’t lose them.</li>

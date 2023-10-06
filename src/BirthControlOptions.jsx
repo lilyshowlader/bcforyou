@@ -86,6 +86,7 @@ export default function BirthControlOptions() {
           <p className='optionName'>PILLS</p>
         </div>
 
+      <p>Source: Planned Parenthood</p>
       </div>
     </>
   );
