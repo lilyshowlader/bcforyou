@@ -78,7 +78,7 @@
     align-items: center;
   }
 
-  .text-container {
+  .text-container, .text-container-two {
     width: 350px; 
   }
 
